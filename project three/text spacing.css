@@ -1,0 +1,20 @@
+.spacing {
+    letter-spacing: 2px;
+    /* it can be -2px */
+    text-indent: 40px;
+    /* the space before text */
+    line-height: 1.5em;
+    /* the height between lines */
+    word-spacing: 4px;
+    white-space: normal;
+    /* when the spece ends it coutinue in the next line */
+    white-space: nowrap;
+    /* when the space ends it continue in the some line 
+   and overflow out the space */
+    word-break: normal;
+    /* when the space ends it continue in the some line 
+   and overflow out the space */
+    word-break: break-all;
+    /* /* when the spece ends it coutinue in the next line */
+
+}

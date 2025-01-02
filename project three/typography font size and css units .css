@@ -1,0 +1,34 @@
+/* 
+
+Typography 
+Font size and css units
+
+## px : is used for sizes that never change if the screen got bigger
+        or smaller and you can use words insted of it like largger or smaller
+## em : it means time 
+        1em means one time and 2em means two times
+        1em != 16px
+        the default size of the web page is 16px
+## rem : root time
+        and the root is html
+## % : 100% means the same font size as the father
+       150% means 1.5 font size of the father
+       200% means 2font size of the father
+
+## vw : view port width 
+       the width of the all page and 1vw means 1% of the all page width
+      : view port hight 
+      the hight of the all page  and 1vw means 1% of the all page hight
+
+
+
+
+
+
+
+
+
+
+
+
+*/

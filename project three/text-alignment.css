@@ -1,0 +1,17 @@
+/* 
+text-align:center; or right; or left;
+direction:ltr; # left to right
+         : rtl ; # right to left
+
+*/
+.image-one,
+.image-two {
+    color: red;
+    text-shadow: 19px 15px 15px red;
+    vertical-align: top;
+}
+
+.image-two .image {
+    vertical-align: top;
+    /* there is also middle and bottom  */
+}

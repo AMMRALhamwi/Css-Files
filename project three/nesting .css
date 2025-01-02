@@ -1,0 +1,22 @@
+div h3 {
+    padding-left: 8px;
+    color: rgb(105, 122, 160);
+    border-left: red 4px groove;
+    background-color: aliceblue;
+    margin: 20px;
+
+}
+
+div p {
+    padding: 10px;
+    border-bottom: red groove 4px;
+    background-color: whitesmoke;
+    margin: 30px;
+}
+
+p {
+    padding: 19px;
+    margin: 32px;
+    background-color: snow;
+    border-right: red 3px groove;
+}

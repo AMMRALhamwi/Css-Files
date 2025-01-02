@@ -1,0 +1,10 @@
+.decoration {
+    background-color: #f9f9f9;
+    /* you can put a line under or through or over the text */
+    text-decoration: line-through;
+    /*under-line and over-line */
+    text-transform: capitalize;
+}
+
+/* text-transform takes these values or more
+capitalize and uppercase and lowercase and more */

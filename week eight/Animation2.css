@@ -1,0 +1,101 @@
+/* 2
+
+Iteration
+Timing Function
+Spinner loading
+
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #009688;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+
+    animation-name: chang-color;
+    animation-duration: 14s;
+    border-radius: 50%;
+    border: red 8px solid;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    /* transition: transform 4s; */
+
+    animation-name: spin;
+    /* animation-duration: 5s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* 
+    
+    the animation diriction changes the diriction of the animation
+    
+    */
+    animation-direction: alternate;
+    animation-delay: 1s;
+    /* animation dely accepets -1 minees value and it means 
+    the animation is gonna wait one sec or more to start but not from
+    the begining it is gonna skip that time */
+    animation-fill-mode: backwards;
+    /* the animation fill mode takes the style from 
+    forward : the last state of the element
+    backward : the frist state of the element
+    both : the first or the last dependes on the last thing that happened
+
+    */
+    animation-play-state: paused;
+    /* you can use it with a hover so you can pause the animation
+    if the user hoverd the mouse */
+}
+
+/* the short hand of the animation
+
+animation: spiner 3s liner 3s infinte reverse
+
+*/
+
+@keyframes chang-color {
+    0% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: black;
+    }
+
+    40% {
+        background-color: white;
+    }
+
+    60% {
+        background-color: green;
+    }
+
+    80% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(3434deg);
+    }
+}

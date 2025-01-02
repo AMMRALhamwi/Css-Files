@@ -1,0 +1,18 @@
+.elzero {
+    background-color: #3dbf93;
+    /* display: inline-block; */
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    text-transform: capitalize;
+    width: fit-content;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 12px #2f6e59 solid;
+    color: white;
+}

@@ -1,0 +1,71 @@
+/* 1
+Animation
+Keyframes
+Animation Name
+Animation Duration
+*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: translate(-50%, -50%);
+    animation-name: chang-color;
+    animation-duration: 14s;
+}
+
+/* The Action It Self */
+
+
+/* @keyframes chang-color {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: aqua;
+    }
+} */
+
+@keyframes chang-color {
+    0% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: black;
+    }
+
+    40% {
+        background-color: white;
+    }
+
+    60% {
+        background-color: green;
+    }
+
+    80% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: red;
+    }
+}

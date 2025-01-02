@@ -1,0 +1,11 @@
+.six {
+    width: fit-content;
+    min-width: 40px;
+    max-width: 70px;
+    border-left: 4px red groove;
+    border-right: none;
+}
+
+/* hight 
+there is also hight and its just like width
+min and max and its default value is auto  */

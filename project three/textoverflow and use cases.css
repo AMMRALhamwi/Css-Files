@@ -1,0 +1,17 @@
+.overflow {
+    background-color: #ddd;
+    padding: 10px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.overflow:hover {
+    overflow: visible;
+}
+
+/* almost the same thing can be done be using only HTML 
+Like this ex:
+<div title="sometext"> the same some text</div>
+*/

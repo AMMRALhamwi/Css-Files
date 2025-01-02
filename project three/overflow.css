@@ -1,0 +1,19 @@
+.rich h3 {
+    visibility: visible;
+    width: 70px;
+    color: blue;
+    border-left: 2px red groove;
+    padding: 30px;
+}
+
+.rich .poam {
+    max-width: 400px;
+    width: fit-content;
+    max-height: 100px;
+    margin: 10px;
+    background-color: aquamarine;
+    background-position: auto;
+    overflow: auto;
+    margin-left: 20%;
+    text-align: center;
+}

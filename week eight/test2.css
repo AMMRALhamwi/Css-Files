@@ -1,0 +1,101 @@
+div {
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    position: absolute;
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    border: 7px solid #0b86e8;
+    border-radius: 50%;
+    border-bottom: transparent 7px solid;
+    animation-name: cyrcling;
+    animation-duration: 1s;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    z-index: 3;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: #FF9800 solid 7px;
+    border-radius: 50%;
+    /* background-color: gray; */
+    left: 50%;
+    top: 50%;
+    /* transform: translate(-50%, -50%); */
+    margin-left: -42px;
+    margin-top: -42px;
+    border-bottom: transparent 7px solid;
+    animation-name: cyrcling;
+    /* animation-duration: 2s; */
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    /* z-index: 2; */
+}
+
+div::after {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    content: "";
+    border: black solid 7px;
+    border-radius: 50%;
+    /* background-color: red; */
+    left: 50%;
+    top: 50%;
+    margin-left: -52px;
+    margin-top: -52px;
+    /* transform: translate(-50%, -50%); */
+    border-bottom: transparent 7px solid;
+    animation-name: cyrcling;
+    animation-duration: 3s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    z-index: 1;
+}
+
+div:hover {
+    animation-name: cyrcling;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+div:hover::before {
+    animation-name: cyrcling;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+div:hover::after {
+    animation-name: cyrcling;
+    animation-play-state: running;
+    animation-duration: 3s;
+
+}
+
+/* .one:hover,
+.two:hover,
+.three:hover {
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes cyrcling {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

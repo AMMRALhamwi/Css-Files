@@ -1,0 +1,25 @@
+
+div:nth-child(2) > div[title="Elzero"]{
+    color: red;
+}
+
+
+
+/* 
+
+This selector breaks down like this:
+
+div:nth-child(2): Selects the second div element.
+>: Represents a direct child relationship.
+div: Selects a child element that is also a div.
+[title="Elzero"]: Selects the child div with the 
+attribute title and the value "Elzero".
+
+
+*/
+
+/* And the type would work as well */
+
+div:nth-of-type(2) > div[title="Elzero"]{
+    color: red;
+}

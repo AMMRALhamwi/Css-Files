@@ -1,0 +1,31 @@
+.div-one {
+    border: 2px red solid;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.p-one {
+    border: inherit;
+    padding: inherit;
+    background-color: #ddd;
+}
+
+.p-two {
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.p-three {
+    font-weight: 700;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.p-four {
+    font-weight: 400;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Jomhuria', cursive;
+    font-family: 'Open Sans', sans-serif;
+}

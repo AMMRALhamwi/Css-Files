@@ -1,0 +1,191 @@
+/* Part one
+
+Selectors Refrence
+
+the star\ * \ selectes all the elements
+The universal selector (*) selects all HTML elements on the page.
+
+\the name of an element like : p div section body....etc
+
+\ some elelment inside other element like : div p 
+this means every p inside div
+
+\ the class name like : .apple
+this means every element named .apple using class
+
+\id name : any element has some id 
+this is just like the class but using id 
+#para1 {
+  color: red;
+}
+Note: An id name cannot start with a number!
+
+\ .parant .child : any child named child inside any parant
+named parant
+and its posssible to be elements between them
+
+\ class-one.class-two  here you target an element that has the 
+two classes together
+
+\ .class-name, .class-name{} or .class-name p, .class-name div
+or more
+to group two or more 
+
+ Element.class-name for example : div.big 
+ it means that i am targeting the div that have a child called
+ big 
+
+.parant > .child : and this means the target is gonna be only 
+the direct child
+
+
+*/
+
+/*  Part Two
+
+This is the next selector
+Element + other element : div + p
+so the target is a p that have a div  after it exictly
+
+Element ~ other elements  : the siblings 
+the example : p ~ div 
+it targets every div that is sibling after the p  even if there anythig between them
+
+we can use the [ Attribute] only 
+exampe : [tittle]{
+    color:red;
+}
+
+And it could be element [Attribute]  
+exampe: 
+div[tittle]{
+    color:red;
+}
+
+And we can say [Attribute = 'value']
+[tittle="s01"]{
+    color:red;
+}
+And we can say element[Attribute = 'value']
+div[tittle="s01"]{
+    color:red;
+}
+div[input="search"]{
+    color:red;
+}
+div[input="submit"]{
+    color:red;
+}
+
+This one is diffrent
+[Atterbute~= 'value']
+this ~= means : contain a word
+[tittle~="divv"]
+
+This one is diffrent
+[Atterbute~= 'value']
+this *= means : contain a string and that means whenever we find the value is is gonna be found and disgined
+[tittle*="divv"]
+
+
+This one is diffrent
+[Atterbute^= 'value']
+this ^= means : start with is string 
+[tittle^="divv"]
+*/
+
+/*  Part three
+
+:first-child 
+as u can guss it targets the first child only
+example 
+p:first-child{
+    color: red;
+}
+so the target is the first child to the p
+:last-child 
+as u can guss it targets the last child only
+
+p:last-child{
+    color:red;
+}
+:first-of-type
+p:first-of-type{}
+the target is the first p 
+:last-of-type 
+
+:only-child
+
+:only-of-type
+
+*/
+
+/* part four 4
+
+:not(selectors)
+it means apply the next code to every thing but not this one
+example : 
+p:not(:first-child){}
+this means apply the code to every p but not the first child
+
+:nth-child(n)
+here if we want to select a spesific number of a child
+example :
+P:nth-child(2){}
+here i`m selecting the second child of the parent p 
+and we can use other thing then just numbers like
+even : evens are the numbers like 2 4 6 8 10 12
+odd : odds are the numbers like 1 3 5 7 9
+
+nth-of-type()
+
+:nth-last-child(n)
+here the only diffirent is the counting starts from the last
+
+and there is 
+:nth-last-of-type()
+
+*/
+
+/* Selectors Reference 
+Part 5
+
+
+:root 
+to work on the HTML tag
+
+:checked 
+this is an attrebute on the elements that we check on and that happeneds if the check is by defualt or not
+and dont forget that we can select the checked element or the next one
+example of using many selectors at once:
+input [type="checked"]:checked + label {
+    color:white;
+}
+
+
+:empty
+as the name says it selects an empty element
+
+:disabled 
+if we have a disabled element this is how we can code it
+:required
+and there is selector for the required element
+and there is 
+:before
+:afrer
+::first-letter
+::first-line
+:hover
+:focus
+
+litle example :
+input:focus {
+    border: 2px red solid ;
+}
+ 
+::selection
+the selection is when you select text normaly it is blue
+
+:placeholder
+
+*/

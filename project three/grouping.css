@@ -1,0 +1,36 @@
+.one,
+.two,
+.three,
+.four,
+.five {
+    padding: 10px;
+
+    margin: 10px;
+    background-color: #eee;
+
+}
+
+.one {
+    color: red;
+    border-bottom: red 2px groove;
+}
+
+.two {
+    color: green;
+    border-bottom: green 2px groove;
+}
+
+.three {
+    color: black;
+    border-bottom: black 2px groove;
+}
+
+.four {
+    color: darkorchid;
+    border-bottom: darkorchid 2px groove;
+}
+
+.five {
+    color: salmon;
+    border-bottom: salmon 2px groove;
+}

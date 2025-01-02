@@ -1,0 +1,12 @@
+.poam {
+    background-color: #f9f9f9;
+    color: red;
+    text-shadow: 15px 2px 14px red;
+}
+
+/* the values of shadow
+h-shadow  horizantel shadow
+v-shadow   vitical shadow
+blur       how much the shadow is gonna be
+color      the color of the shadow
+*/

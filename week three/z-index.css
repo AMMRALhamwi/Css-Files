@@ -1,0 +1,43 @@
+div {
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+}
+
+.one {
+    background-color: red;
+    left: 30px;
+    top: 30px;
+    z-index: 1;
+}
+
+.two {
+    background-color: green;
+    left: 40px;
+    top: 40px;
+    z-index: 2;
+}
+
+.three {
+    background-color: blue;
+    left: 50px;
+    top: 50px;
+    z-index: 3;
+}
+
+/* z-index نظام الطبقات 
+# to make it in the first place you should give the elemnts 
+a position first what ever the position is 
+# the number you give to the z-index is what decide what 
+elements goes upove the others 
+unless you are not working by default
+
+### z-index:-1; makes the thing with ithis index behind all 
+elments
+
+
+
+
+
+*/

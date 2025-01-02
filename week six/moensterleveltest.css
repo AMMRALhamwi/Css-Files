@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* color: white; */
+}
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+
+
+    margin: 50px auto;
+    display: grid;
+    gap: 10px;
+    /* grid-template-columns: 50% 25% 25%; */
+    grid-template-areas: "ammar ammar osama rayan" "raghad asmaa asmaa rayan " "raghad jack jack rayan" "melesa yamam shayma eliza";
+
+}
+
+.grid div {
+
+    display: inline-grid;
+    padding: 10px;
+
+}
+
+.ammar {
+    grid-area: ammar;
+    border-bottom: red solid 2px;
+    background-color: whitesmoke;
+
+}
+
+.osama {
+    grid-area: osama;
+    border-bottom: red solid 2px;
+    background-color: whitesmoke;
+}
+
+.rayan {
+    grid-area: rayan;
+    border-bottom: red solid 2px;
+    background-color: black;
+    color: white;
+}
+
+.raghad {
+    grid-area: raghad;
+    border-bottom: red solid 2px;
+    background-color: whitesmoke;
+}
+
+.asmaa {
+    grid-area: asmaa;
+    border-bottom: red solid 2px;
+    background-color: black;
+    color: white;
+}
+
+.jack {
+    grid-area: jack;
+    border-bottom: red solid 2px;
+    background-color: whitesmoke;
+}
+
+.melesa {
+    grid-area: melesa;
+    border-bottom: red solid 2px;
+    background-color: whitesmoke;
+}
+
+.yamam {
+    grid-area: yamam;
+    border-bottom: red solid 2px;
+    background-color: whitesmoke;
+}
+
+.shayma {
+    grid-area: shayma;
+    border-bottom: red solid 2px;
+    background-color: black;
+    color: white;
+}
+
+.eliza {
+    grid-area: eliza;
+    border-bottom: red solid 2px;
+    background-color: whitesmoke;
+}
+
+.two {
+    color: #00000080;
+}
+
+.twoo {
+    color: #ffffff87;
+}
+
+.under {
+    color: #00000080;
+}
+
+.underr {
+    color: #ffffff87;
+}

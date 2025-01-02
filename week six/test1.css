@@ -1,0 +1,36 @@
+div {
+    width: 600px;
+    margin: auto;
+    border-left: solid orange 6px;
+    text-align: center;
+    border-right: solid 6px purple;
+    font-size: x-large;
+    font-weight: 500;
+    background-color: #eee;
+    padding: 1%;
+    position: relative;
+}
+
+div::first-letter {
+    color: orange;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    left: -0.9%;
+    top: 0.3%;
+    width: 626px;
+    height: 6px;
+    background-image: linear-gradient(90deg, orange 20%, blue 20%, blue 40%, green 40%, green 60%, orange 60%, orange 80%, purple 20%);
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    left: -0.9%;
+    top: 86.5%;
+    width: 626px;
+    height: 6px;
+    background-image: linear-gradient(90deg, orange 20%, blue 20%, blue 40%, green 40%, green 60%, orange 60%, orange 80%, purple 20%);
+}

@@ -1,0 +1,50 @@
+.main {
+    margin: auto;
+    position: relative;
+    caret-color: red;
+
+}
+
+input {
+    width: 600PX;
+    border: none;
+    /* border-bottom: red solid 3px; */
+    margin: 10px;
+    background-color: #eee;
+    padding: 10px;
+    outline: none;
+
+
+}
+
+.one::before {
+    content: "";
+    position: absolute;
+    width: 621px;
+    left: 9px;
+    top: 45px;
+    height: 3px;
+    background-image: linear-gradient(90deg, #ff6f6f 50%, #73caf1 50%);
+
+}
+
+.two::before {
+    content: "";
+    position: absolute;
+    width: 621px;
+    left: 9px;
+    top: 100px;
+    height: 3px;
+    background-image: linear-gradient(90deg, #ff6f6f 50%, #73caf1 50%);
+}
+
+.three::before {
+    content: "";
+    position: absolute;
+    width: 621px;
+    left: 9px;
+    top: 155px;
+    height: 3px;
+    background-image: linear-gradient(90deg, #ff6f6f 50%, #73caf1 50%);
+
+}

@@ -1,0 +1,10 @@
+div {
+    background-image: linear-gradient(to right, red, green);
+    /* linear-gradient (( direction or angle , color stop 1, color stop 2 ,.. */
+    /* directions like 5deg */
+    /* you can tell the color to continue or stop if you apply it agin by giving it
+    a % or px like the following */
+    background-image: linear-gradient(60deg, red 40%, green 39%, yellow);
+    width: 800px;
+    height: 300px;
+}

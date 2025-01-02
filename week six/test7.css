@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-content: space-between;
+}
+
+.grid div {
+    display: inline-grid;
+    background-color: red;
+    align-content: center;
+    justify-content: center;
+}

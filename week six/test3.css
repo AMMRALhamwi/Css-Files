@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+
+
+}
+
+
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 328px;
+    gap: 20px;
+
+    text-align: center;
+}
+
+.grid div {
+    background-color: #607D8B;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    counter-increment: num;
+}
+
+
+.grid div::after {
+
+
+    color: white;
+    content: "element " counter(num);
+
+
+}

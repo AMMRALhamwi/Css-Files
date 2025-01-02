@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    height: 500px;
+    width: 800px;
+    background-color: #eee;
+    /* we should give the parent display grid in 
+    order to work */
+    display: grid;
+    /* and if there is an element next to the grid we can 
+    give it display inline grid so it 
+    can show up next to the grid */
+    grid-template-columns: 100px 100px 100px 100px;
+    /* it takes the number of columns in  */
+    /* it can be px , % , auto , repeat(5 , 30px) , or mix
+    of all of them , (somenumber)fraction for example 2fr  */
+    /* fraction is gready and auto is shy */
+    grid-template-rows: 100px 100px 100px;
+    /* the same as columns in everyway */
+    row-gap: 30px;
+    column-gap: 30px;
+    gap: 20px 20px;
+    justify-content: flex-end;
+    /* flex-start and center and others*/
+    /* to deal in the horizantel movement */
+    justify-content: space-between;
+    /* space-around , space-evenly*/
+    align-content: center;
+    /* flex-start and end and center*/
+    /* to deal in the vertical movement */
+    align-content: space-between;
+    /* space-around , space-evenly*/
+}
+
+.parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

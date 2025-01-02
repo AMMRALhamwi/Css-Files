@@ -1,0 +1,31 @@
+body {
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: georgian;
+    list-style-position: outside;
+}
+
+li {
+    background-color: #eee;
+    /* margin-bottom: 20px; */
+    /* list-style-image: url(code.jpg); */
+    list-style: disc armenian inside;
+    /* this is a short hand code that can
+    take more than one value */
+    /* to reset the default styling do this */
+    list-style: none;
+    /* you will sill have padding and margin / remove it */
+    padding-left: 0%;
+    margin-left: 0%;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0%;
+    margin-left: 0%;
+
+
+}

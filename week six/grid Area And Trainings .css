@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+
+
+
+*/
+
+.parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #eee;
+    display: grid;
+    /* grid-template-columns: repeat(6, 1fr); */
+    grid-template-areas: "head head head head head" "logo logo nav nav nav";
+    gap: 10px 10px;
+}
+
+/* grid-area: [grid-row-start] /[grid-column-start]/[grin-row-end]  /[grid-column-end]
+gris-area:         2            /     2            /      4         /      6     */
+.parent div {
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.one {
+    background-color: aqua;
+    grid-area: head;
+}
+
+.two {
+    background-color: black;
+    grid-area: logo;
+}
+
+.three {
+    background-color: gray;
+    grid-area: nav;
+}

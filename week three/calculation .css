@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.parent div {
+    margin: 0;
+    background-color: none;
+}
+
+/* 
+content width is 100% and i want 5 spaces 
+every space is 1% so i want 5% spaces from contant width
+so the avilable space left is 95% 
+for 4 elements the width is 95% / 4
+*/
+
+/* so */
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    width: calc(88% /5);
+    float: left;
+    margin-left: 2%;
+}
+
+/*
+ and we can do this if you have px insted of % 
+margin-left :15px;
+15*6=90px
+width: calc((100%-90px) /5);
+
+
+*/

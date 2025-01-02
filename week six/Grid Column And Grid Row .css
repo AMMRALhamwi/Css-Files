@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: repeat(3 , 1fr); */
+    gap: 10px 10px;
+}
+
+/* to give the child a style give it a class as usuale 
+and these styling are in the html style
+<div style="
+    grid-column: 1 /7;
+">1</div>
+this one made some kind of span form 1 to 6
+and this is a short cut to 
+grid-column-start: 1;
+    grid-column-end: 7;
+    but if you want span on 6 colomns but you dont know how much colomns
+    you have do this 
+    element.style {
+    grid-column: span 6;}
+    what if you want to make the span to start from the second colomn ?
+    element.style {
+    grid-column: 2 / span 3;
+}
+so if you told the css that you want to make span for 4 colomns
+but there are only 3 left 
+the 3 colomns are gonna make a new row
+*/
+/*  for the grid row every thing are the same */
+
+.parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

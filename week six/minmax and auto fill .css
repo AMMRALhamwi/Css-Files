@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* 
+
+
+
+*/
+
+.parent {
+
+    margin: 20px auto;
+    height: 500px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: auto repeat(2, 1fr);
+    grid-template-columns: minmax(200px, 400px) repeat(2, 1fr);
+    grid-template-columns: repeat(7, 200px);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    /* look for outofit and ch as a mearuse unit*/
+
+    /* grid-template-columns: repeat(6, 1fr); */
+    /* grid-template-areas: "head head head head head" "logo logo nav nav nav"; */
+}
+
+/* grid-area: [grid-row-start] /[grid-column-start]/[grin-row-end]  /[grid-column-end]
+gris-area:         2            /     2            /      4         /      6     */
+.parent div {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}

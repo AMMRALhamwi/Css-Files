@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: black;
+    width: 800px;
+}
+
+.fullwidth {
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    background-color: blue;
+    float: left;
+    width: calc(100% - 50px);
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.one {
+    text-align: center;
+    background-color: darkblue;
+    width: calc((100% - 120px)/ 3);
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.two {
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    margin-left: 15px;
+    float: left;
+    color: aliceblue;
+    width: calc((100% - 85px) / 2);
+    margin-top: 15px;
+}
+
+.three {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: lightblue;
+    margin-left: 15px;
+    float: left;
+    color: aliceblue;
+    padding: 10px;
+    width: calc((100% - 155px) / 4);
+}
+
+.clear {
+    clear: both;
+}

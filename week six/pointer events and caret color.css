@@ -1,0 +1,8 @@
+p {
+    caret-color: red;
+    pointer-events: none;
+}
+
+a {
+    pointer-events: none;
+}

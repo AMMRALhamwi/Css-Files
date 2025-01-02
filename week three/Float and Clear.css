@@ -1,0 +1,31 @@
+/* 
+Float
+
+# when you use inline block , it adds padding or spaces between
+the elements so its not the best practice to use if you want to 
+but the elememts next to each other
+
+# if you have 4 elements and you want to put them next to each oher
+ so evrey elment shoud have 25% width from the parant because the 
+ parent width is 100%
+
+#  
+
+*/
+.parent {
+    background-color: red;
+    padding: 10px;
+}
+
+.parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    width: 25%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

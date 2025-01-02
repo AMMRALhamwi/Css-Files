@@ -1,0 +1,21 @@
+.main-ul {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eee;
+    list-style-type: none;
+}
+
+
+
+.list-html {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.greek {
+    list-style-type: upper-roman;
+}

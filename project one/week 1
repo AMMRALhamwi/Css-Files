@@ -1,0 +1,121 @@
+### Week one
+
+### lesson 1 to 3
+there is three ways to code css
+first is to open an external css file using link
+secont is to write a css code in the html page inside {style}
+third is to write a css code insid the element itself like thid;
+<p style ="color : red "> this is cs50 </p>
+the differnce
+
+### lesson 4 
+ name conventions and rules
+the same as naming of virables 
+ the best practice in css is to use (-) in between we name it kabeb case
+ # like this num-1 or type-c
+
+### lesson 5
+background and color and inage ane repeat
+
+there is three ways to choose a color for a background
+1 you can type its name 
+2 you can use RGB the higher number is 255 and the lowest is 0
+3 using hexdesimol the highset is ff and the lowest is 0
+#to use the third opion start with #
+
+background image
+background-image: url (../ back step to reach a last folder)
+                     (/to open a folder)
+                     background repeat: repeat; 3 it reapeats the same image right to lift top to 
+                     bottom
+                                       : repeat x # repeats the image left to right
+                                       : repeat y # repeats the image top to bottom
+
+### lesson 6 
+background attachment and position and size
+background
+background attachment`s default mode is scroll
+that means the background will still in its place and will never move even when you scroll
+but if you want the background to move as you move use #fixed 
+
+background position  
+there is many ways to situp the background position 
+first; top or bottom left right and center# if you did not write one of the values it is gonna be center by default
+second ; by px ex; 100px 300px
+third ; by  ex 20% 56%
+ 
+ background size ; 
+ 1. auto ; makes the backgroun on its normal size #default value
+ 2. cover ; full size on all the contant and it code be cut 
+ 3. contain ; full size also but it never be cut and you can give it  px px and % %
+
+### lesson 7 
+padding
+الهوامش
+padding also takes 4 values but if you did not wite some vilue its gonna have it from the one in front to it and if you wrote only one value it is goona be applayed on the four sides
+ex padding : 10px 30px ; # it can be written in %
+if you want to make padding for only one side 
+ex padding top : 10px
+the padding does not accept negative value
+
+### leson 8
+margin
+الهوامش الخارجية
+just like padding when speaking on values % and px and sides
+margin does accept negative value
+if you gave the elment width of 40% for ex 
+the element is gonna be on the right side and the other 60 % is gonna be margin
+if you want your elemnt to be centered 
+margin-left:30%
+margin-right :30%
+and also you can do it like this
+margin-left: auto;
+margin-right :auto;
+and there is an easier way
+margin:auto;
+
+### lesson 9
+border
+border-width:2px; # that mean the border has width for all sides 
+border-width:2px 3px; # that mean the border has width for top and right sides 
+##that mean its like the padding and margin it takes four values
+so...
+border-width:10px; ## takes for values
+border-color:green; ## takes for values
+border-style:solid; ## takes for values some styles : dashed dotted double groove   hidded inherit inset none outset ervert ridge solid unset
+ ## code short cut
+ border:20px green solid ; 
+
+ ### lesson 10
+ outline #lookes like border but it is not
+         # you cant give valu for every side
+         # the border addes to the width of the element but the outline does not
+         # what you add to outline is litterly outline the element
+outline-style: 10px solied red;          
+
+### lesson 11
+display , block, inline ,inline-block
+
+# block
+takes the full width if there is no width
+adds line break
+and it respect padding and margin
+# inline
+does not add line break
+does not respect width and hight
+do respect pading and margin but from left and right only
+allows the elements befor and after it
+# display 
+changes the block into inline and the otherwise is correct and it change also into inline-block
+# inline block
+allows the elements befor and after it
+do respect pading and margin but from left and right only
+
+
+### lesson 12 
+element visibility and use cases
+
+# display 
+display values : block ; inline ; inline-block ; none # hide the element and remove its place from the page
+visibility : visible ; # visible is the default value
+visibility : hidden;  # hide the element asso like display none but keeps its place ecxist 

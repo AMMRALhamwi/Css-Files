@@ -1,0 +1,1966 @@
+*{
+    --section-padding: 40px 0; 
+}
+.assiment-one div{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: #8a2be2;
+    background-color: rgb(138 43 226);
+}
+.assiment-one div:last-child{
+    background-color: rgb(138 43 226 /50%) ;
+}
+.assiment-2 {
+    width: 400px;
+    height: 400px;
+    background-image: url(./css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: repeat;
+}
+.assiment-3 {
+    width: 400px;
+    height: 400px;
+    background-image: url(./css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-position: right;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-repeat: repeat;
+}
+.assiment-4 {
+    width: 400px;
+    height: 400px;
+    background-image: url(./css-assignment-5-8.png);
+    background-size: 80%;
+}
+.assiment-5 div{
+    display: inline-block;
+    margin: 20px;
+}
+.assiment-5 div:first-child{
+    border: 5px solid red;
+    outline: 5px solid black;
+    padding: 20px;
+    background-color: #ddd;
+}
+.assiment-5 div:nth-child(2){
+    border: 5px solid red;
+    border-color: blue green;
+    outline: 5px solid black;
+    padding: 20px;
+    background-color: #ddd;
+}
+.assiment-5 div:nth-child(3){
+    border: 5px dashed red;
+    border-color: red green blue yellow;
+    outline: 5px solid black;
+    padding: 20px;
+    background-color: #ddd;
+}
+.assiment-6 div{
+    width: 400px;
+    background-color: #ddd;
+    border-left: #009688 solid 3px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-transform:capitalize;
+    outline: #ddd 10px solid;
+    margin: 30px;
+}
+.assiment-6 div:first-child{
+    border-left: #F44336 solid 3px;
+}
+.assiment-6 div:nth-child(2){
+    visibility: hidden;
+}
+.assiment-7 .parent .child span{
+    color: red;
+}
+.assiment-7 .parent span{
+    color: blue;
+}
+.assiment-7 .parent p,
+.assiment-7 .parent + div{
+    color: green;
+}
+.assiment-8 div{
+    background-color: brown;
+    width: fit-content;
+    max-width: 400px;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 20px;
+    max-height: 30px;
+}
+.assiment-9 div{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 1px red, 4px 2px blue, 4px 3px purple
+}
+.assiment-10 p:first-child{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.assiment-10 p:nth-child(2){
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.assiment-10 p{
+    text-transform: lowercase;
+}
+.assiment-11 div{
+    width: 400px;
+    background-color: #ddd;
+    padding: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    height: 32px;
+    line-height: 2;
+}
+.assiment-12{
+    position: relative;
+    margin-top: 40px;
+}
+.assiment-12 a{
+    text-decoration: none;
+    color: white;
+    background-color: #009688;
+    border-bottom: 4px solid darkgreen;
+    left: 50%;
+    position: absolute;
+    transform: translatex(-50%);
+    padding: 20px 30px;
+    text-transform: capitalize;
+}
+.assiment-13 div{
+    margin-top: 200px;
+    margin-top: 200px;
+    font-weight: bold;
+    /* align-items: center; */
+    /* position: relative; */
+    text-align: center;
+    border: 2px solid red;
+    padding: 20px;
+}
+.assiment-13 div p {
+    padding: inherit;
+    background-color: #ddd;
+    border: inherit;
+}
+.assiment-14{
+    margin: 40px auto;
+    text-align: center;
+}
+.assiment-14 div{
+    margin: 40px auto;
+}
+.assiment-14 div:first-child{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px
+}
+.assiment-14 div:nth-child(2){
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.assiment-14 div:last-child{
+    color: red;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-size: 40px
+}
+.float-and-clear-test .parent{
+    background: radial-gradient(black, transparent);
+    padding: 10px;
+}
+.float-and-clear-test .parent div{
+    float: left;
+    width: calc(100% /5);
+    color: white;
+}
+.float-and-clear-test {
+    text-align: center;
+}
+.assiment-15 .parent{
+    background-color: #eee;
+    width: 800px;
+    margin: 40px auto;
+    text-align: center;
+
+}
+.assiment-15  .parent .full div{
+    margin: 15px;
+    float: left;
+    background:  #ddd;
+    width: calc((100% - 70px) / 1);
+    padding: 20px;
+}
+.assiment-15  .parent .one {
+    background: cadetblue;
+}
+.assiment-15  .parent .full p
+.assiment-15  .parent .one p,
+.assiment-15  .parent .two p,
+.assiment-15  .parent .three p{
+    clear: both;
+}
+.assiment-15  .parent .one div{
+    float: left;
+    margin: 0 0 15px 15px;
+    width: calc((100% - 180px) / 3);
+    background-color: #ddd;
+    padding: 20px;
+}
+.assiment-15  .parent .two div{
+    float: left;
+    width: calc((100% - 125px)  / 2);
+    background-color:  #ddd;
+    margin: 0 0 15px 15px;
+    padding: 20px;
+}
+.assiment-15  .parent .three div{
+    float: left;
+    width: calc((100% - 235px) / 4);
+    background-color:  #ddd;
+    margin: 0 0 15px 15px;
+    padding: 20px;
+}
+.assiment-16 div:first-child{
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(158 158 158);
+    color: black;
+}
+.assiment-16 div:nth-child(2){
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(158 158 158 / 10%);
+    color: black;
+}
+.assiment-16 div:nth-child(3){
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(158 158 158 );
+    color: black;
+    opacity: 0.1;
+}
+.assiment-17{
+    position: relative;
+}
+
+.assiment-17 div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.assiment-17 div:first-child{
+    background-color: #009688;
+    z-index: 3;
+    top: 40px;
+    left: 40px;
+}
+.assiment-17 div:nth-child(2){
+    background-color: #F44336;
+    z-index: 4;
+    top: 60px;
+    left: 60px;
+}
+.assiment-17 div:nth-child(3){
+    background-color:#2196F3;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+.assiment-17 div:nth-child(4){
+    background-color: black;
+    z-index: 1;
+    top: 40px;
+    left: 20px;
+}
+.assiment-18 {
+    margin-top: 250px;
+}
+.assiment-18 div{
+    width: 400px;
+    margin: 40px auto;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #F44336 #2196F3;
+    line-height: 1.7;
+    position: relative;
+    background-color: #eee;
+}
+.assiment-18 div span{
+    color: white;
+    width: 25px;
+    position: absolute;
+    height: 25px;
+    text-align: center;
+    background-color: #2196F3;
+}
+.assiment-18 div .top-left{
+    top: -12px;
+    left: -12px;
+    border-right: 2px solid #F44336;
+}
+.assiment-18 div .bottom-left{
+    bottom: -12px;
+    left: -12px;
+    border-right: 2px solid #F44336;
+}
+.assiment-18 div .top-right{
+    top: -12px;
+    right: -12px;
+    border-left: 2px solid #F44336;
+}
+.assiment-18 div .bottom-right{
+    bottom: -12px;
+    right: -12px;
+    border-left: 2px solid #F44336;
+}
+.assiment-19 .main{
+    width: 400px;
+    margin: 15px auto;
+}
+.assiment-19 ul .html,
+.assiment-19 ul .css,
+.assiment-19 ul .js
+{
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.assiment-19 .main .css li{
+    list-style: upper-roman;
+}
+.assiment-19 ul .html ol li,
+.assiment-19 ul .css ol li
+{
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 6px;
+}
+.assiment-19 ul .js ul li{
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 6px;
+    width: auto;
+}
+.assiment-19 ul:not(.js ul){
+    list-style: none;
+}
+.assiment-19 .js{
+    list-style: none;
+}
+.assiment-19 .js ul{
+    list-style-position: inside;
+    padding-left: 0;
+    /*
+    as you could guss there is more than one way to get the job done
+    but the best practice is to remove the padding 
+    left: -38px;
+    position: relative;
+    width: 100%; */
+}
+.assiment-20 {
+    margin: 40px auto;
+    width: 700px;
+}
+.assiment-20 table{
+    width: 100%;
+    border-bottom: 2px solid #03A9F4;
+}
+.assiment-20 table caption{
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.assiment-20 table thead{
+    background-color: #2a2727d4;
+    color: white;
+    text-align: center;
+    height: 35px;
+}
+.assiment-20 table tbody{
+    background: #eee;
+    height: 400px;
+    text-align: center;
+}
+.assiment-20 table tbody tr td img{
+    width: 100px;
+}
+.assiment-20 table tbody tr td .view{
+    background-color:#2196F3;
+    color: white;
+    padding: 2px 5px;
+    margin-right: 4px;
+}
+.assiment-20 table tbody tr td .delete{
+    background-color: #f12b6e;
+    color: white;
+    padding: 2px 5px;
+}
+.assiment-21 {
+    margin: 40px auto;
+}
+.assiment-21 div{
+    background-color: #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center
+}
+.assiment-21 div:empty{
+    background-color: red;
+    height: 49px;
+    padding: 0;
+}
+.assiment-22 div {
+    margin: 40px auto;
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+    width: fit-content;
+    padding: 15px 21px 15px 9px;
+
+}
+.assiment-22 div::first-letter{
+    background-color: red;
+    color: white;
+    padding: 3px;
+    margin: 2px -1px 2px -23px;
+    padding: 10px 8px 10px 8px;
+}
+.assiment-23 p{
+    margin: 40px auto;
+    text-align: center;
+    background-color: #eee;
+    width: fit-content;
+    padding: 20px;
+    border-left: 6px solid #E91E63;
+    position: relative;
+}
+/* .assiment-23 p[data-person="Osama"]{
+    background-color: #ddd;
+} */
+.assiment-23 p::before{
+    content: attr(data-person);
+    position: absolute;
+    left: -92px;
+    top: 10px;
+    width: fit-content;
+    background: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+.assiment-23 p::after{
+    content: "";
+    position: absolute;
+    left: -29px;
+    top: 15px;
+    border: 12px solid;
+    border-color: transparent #E91E63 transparent transparent
+}
+.assiment-24 p{
+    margin: 40px auto;
+    text-align: center;
+    background-color: #eee;
+    width: fit-content;
+    padding: 10px 25px;
+    position: relative;
+    border-right: 4px solid #F44336;
+    counter-increment: num;
+}
+.assiment-24 p::before{
+    content: counter(num);
+    position: absolute;
+    width: 22px;
+    left: -33px;
+    background-color: #FF5722;
+    top: 0px;
+    padding: 10px;
+    color: white;
+}
+.assiment-25{
+    margin: 40px auto;
+    width: 435px;
+}
+.assiment-25 div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #eee;
+    float: left;
+    margin-right: 40px;
+    counter-increment: num;
+    position: relative;
+    box-shadow: -4px -5px 2px 1px #E91E63, 4px 5px 1px 1px #00BCD4;
+    margin-bottom: 42px;
+    border: 2px solid;
+}
+.assiment-25 div::before{
+    content: counter(num);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    left: 40px;
+    color: white;
+    background: black;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.assiment-25 div::after{
+    content: "element";
+    position: absolute;
+    top: 38px;
+    left: 23px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.assiment-26 div{
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: #0000008a 2px solid;
+    box-shadow: inset 6px 9px 7px 2px #9E9E9E, inset -6px -9px 7px 2px #9E9E9E;
+    margin: 200px auto ;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 52px;
+    border-bottom-left-radius: 57px;
+    border-bottom-right-radius: 6px 13px;
+}
+.assiment-27{
+    margin: 20px auto;
+    text-align: center;
+}
+.assiment-27 div{
+    /* float: left; */
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    margin: 40px auto;
+}
+.assiment-27 .parent{
+    background-color: #eee;
+    width: 190px;
+    height: 225px;
+    position: relative;
+}
+.assiment-27 .parent .cyrcle,
+.assiment-27 .parent .cyrcle-2 {
+    position: absolute;
+    top: 60px;
+    /* border: 2px solid #ddd; */
+    border-radius: 50%;
+    width: 155px;
+    height: 155px;
+    text-align: center;
+    left: 19px;
+    background-color: #ddd
+}
+.assiment-27 .parent .cyrcle::after ,
+.assiment-27 .parent .cyrcle-2::after{
+    position: absolute;
+    left: 50px;
+    top: 55px;
+    width: 4px;
+    height: 3px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.assiment-27 .parent .cyrcle::after {
+    content: "Free";
+}
+.assiment-27 .parent .cyrcle-2::after{
+    content: "$30";
+}
+.assiment-27 .plan{
+    color: white;
+    background-color: #2196F3;
+    width: 100px;
+    padding: 4px 69px;
+    position: relative;
+    top: 20px;
+}
+.assiment-27 .or{
+    background-color: #2196F3;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px
+}
+.assiment-27 .or::before ,
+.assiment-27 .or::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 2px;
+    height: 106px;
+    background-color: #2196F3
+}
+.assiment-27 .or::after{
+    top: -99px;
+}
+.assiment-28 {
+    margin: 40px auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.assiment-28 .parent{
+    background-color: #eee;
+    height: 130px;
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    transition:  margin 0.5s 0s linear;
+    -webkit-transition:  margin 0.5s 0s linear;
+    -moz-transition:  margin 0.5s 0s linear;
+    -ms-transition:  margin 0.5s 0s linear;
+    -o-transition:  margin 0.5s 0s linear;
+}
+.assiment-28 .parent:hover{
+    margin: 10px auto;
+}
+.assiment-28 .child{
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 10px;
+    transition:  margin 0.5s 1s linear;
+    -webkit-transition:  margin 0.5s 1s linear;
+    -moz-transition:  margin 0.5s 1s linear;
+    -ms-transition:  margin 0.5s 1s linear;
+    -o-transition:  margin 0.5s 1s linear;
+}
+.assiment-28 .parent:hover .child{
+    margin-top: 40px;
+}
+.assiment-29 div{
+    background-color: #eee !important ;
+    font-size: 20px !important;
+    text-align: center !important;
+    color: transparent !important;
+    width: 400px !important;
+    margin: auto !important;
+    border: none !important;
+    font-weight: bold !important;
+    position: relative;
+}
+.assiment-29 div::before{
+    content: "Alhamwi";
+    position: absolute;
+    color: black;
+}
+/* :root{
+    --mainColor: #009688;
+    --mainPadding: 10px;
+} */
+.assiment-30{
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+}
+.assiment-30 div{
+    border: 2px solid var(--mainColor , black);
+    color: var(--mainColor ,red);
+    padding: var(--mainPadding , 10px);
+    margin-bottom: 10px;
+}
+.assiment-31 {
+    padding-top: 60px;
+}
+.assiment-31 div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    color: #FF5722;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 35px;
+    box-shadow: 10px 0 0 0 #FF5722, -10px 0px 0 0 #00BCD4;
+    background-color: #eee;
+}
+.assiment-32 {
+    padding-top: 60px;
+}
+.assiment-32 .parent {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #eee;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.assiment-32 .parent div{
+    color: white;
+    background-color: orangered;
+    width: calc(90% / 3);
+    padding: 5px;
+}
+.assiment-33{
+    padding-top: 60px;
+}
+.assiment-33 .parent{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.assiment-33 .parent div{
+    width: calc(90% / 3); 
+    background-color: #607D8B;
+    height: 45%;
+    display: flex;
+    color: white;
+    flex-basis: calc(96% / 3);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.assiment-33 .parent .one{
+    order: 6;
+    height: 35px;
+    align-self: end;
+}
+.assiment-33 .parent .two{
+    order: 5;
+}
+.assiment-33 .parent .three{
+    order: 2;
+    height: 35px;
+}
+.assiment-33 .parent .four{
+    order: 3;
+}
+.assiment-33 .parent .five{
+    order: 4;
+}
+.assiment-33 .parent .six{
+    order: 1;
+}
+.assiment-34{
+    padding-top: 40px;
+}
+.assiment-34 .parent{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+.assiment-34 .parent div {
+    color: white;
+    background-color: #009688;
+    height: calc(90% / 3);
+    display: flex;
+    /* flex: 1; */
+    flex-basis: 97%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.assiment-34 .parent .one,
+.assiment-34 .parent .three{
+    flex-basis: 30px;
+    /* align-self: end; */
+    justify-self: end;
+    margin-left: 92%
+}
+.assiment-34 .parent .two{
+    flex-basis: 50%;
+    justify-self: end;
+    margin-right: 46%;
+}
+.assiment-35 {
+    padding-top: 50px;
+}
+.assiment-35 .parent {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around;
+}
+.assiment-35 .parent div{
+    display: flex;
+    flex-basis: calc(31% / 2);
+    justify-content: center;
+    align-items: center;
+    height: calc(90% / 2);
+}
+.assiment-35 .parent .one{
+    background-color: orange;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+.assiment-35 .parent .two{
+    background-color: #8BC34A;
+    order: 4;
+    margin-left: 29%;
+    margin-right: 33%;
+}
+.assiment-35 .parent .three{
+    background-color: brown;
+    order: 2;
+}
+.assiment-35 .parent .four{
+    background-color: purple;
+    order: 3;
+}
+.assiment-36{
+    padding: 50px;
+}
+.assiment-36 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.assiment-36 .page{
+    background-color: #eee;
+    height: 424px;
+}
+.assiment-36 .page .header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+}
+.assiment-36 .page .header .logo{
+    background-color: #ddd;
+    padding: 8px;
+}
+.assiment-36 .page .header .links{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ddd;
+    flex-basis: 85%;
+    padding: 8px;
+}
+.assiment-36 .page .header .links li{
+    margin-right: 20px;
+}
+.assiment-36 .page .main-area{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.assiment-36 .page .main-area .content{
+    background-color: #ddd;
+    flex-basis: 60%;
+    height: 290px;
+    padding: 10px 0 0 10px;
+}
+.assiment-36 .page .main-area .sidebar{
+    background-color: #ddd;
+    flex-basis: 33%;
+    height: 300px;
+    padding: 10px 0 0 10px;
+}
+.assiment-36 .page .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+.assiment-36 .page .footer .copyright {
+    background-color: #ddd;
+    flex-basis: 73%;
+    padding: 5px 0 5px 0;
+}
+.assiment-36 .page .footer .design{
+    background-color: #ddd;
+    flex-basis: 25%;
+}
+.assiment-37 {
+    padding: 40px 0 40px 0;
+}
+.assiment-37 div{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #ddd;
+    padding: 15px;
+    font-weight: bold;
+    font-size:35px ;
+    border-left: #F44336 10px solid;
+    border-right: #673AB7 10px solid;
+    position: relative;
+}
+.assiment-37 div::before ,
+.assiment-37 div::After
+{
+    content: "";
+    position: absolute ;
+    top: -10px;
+    left: -10px;
+    background-image:
+    linear-gradient(to right,
+    #F44336 20%,
+    #03A9F4 20%, #03A9F4 40%,
+    #4CAF50 40%, #4CAF50 60%,
+    #E91E63 60%, #E91E63 80%,
+    #673AB7  80%);
+    width: calc(100% + 20px);
+    height: 10px;
+}
+.assiment-37 div::After{
+    top:70px;
+}
+.assiment-37 div::first-letter{
+    color:#F44336 ;
+}
+.assiment-38 {
+    padding: 40px 0 40px 0;
+}
+.assiment-38 input{
+    /* display: block; */
+    padding: 15px;
+    border: none;
+    background-color: #eee;
+    text-transform: capitalize;
+    font-size: 20px;
+    outline: none;
+    caret-color: red;
+    width: 100%;
+}
+.assiment-38 div{
+    position: relative;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+.assiment-38 div::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 30px);
+    /* top: 0; */
+    left: 0px;
+    height: 2px;
+    /* background-color: #E91E63; */
+    background-image: linear-gradient(to right, #E91E63 50%, #2196F3 50%);
+    bottom: 0px;
+}
+.assiment-39 {
+    padding: 40px 0;
+
+}
+.assiment-39 .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 1fr;
+    gap: 20px;
+}
+.assiment-39 .grid div{
+    background-color: #607D8B;
+    position: relative;
+    counter-increment: num;
+    display: inline-grid;
+    align-items: center;
+    justify-items: center
+}
+.assiment-39 .grid div::before{
+    content: "Element " counter(num);
+    position: absolute;
+    color: white;
+}
+.assiment-40 {
+    padding: 40px 0;   
+}
+.layout{
+    height: 100vb;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 60px auto 60px;
+    grid-template-areas: 
+    "head head head head head head head head head head"
+    " section section section section section section section sid sid sid"
+    "foot foot foot foot foot foot foot foot foot foot" ;
+}
+header{
+    background-color: #03A9F4;
+    grid-area: head;
+    position: relative;
+    display: inline-grid;
+    align-items: center;
+}
+header::before{
+    content: "Header";
+    position: absolute;
+    margin-left: 15px;
+    color: white;
+}
+section{
+    grid-area: section;
+    background-color: lightcoral;
+    position: relative;
+    display: inline-grid;
+}
+section::before{
+    content: "Section";
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+}
+aside{
+    grid-area: sid;
+    background-color: lightgreen;
+    position: relative;
+    display: inline-grid;
+}
+aside::before{
+    content: "Aside";
+    position: absolute;
+    color : white;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+footer{
+    grid-area: foot;
+    background-color: aqua;
+}
+footer::before{
+    content: "Footer" ;
+    position: absolute;
+    color : white;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.assiment-41{
+    padding: var(--section-padding);
+}
+.assiment-41 .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-template-rows: 1fr auto;
+    gap: 14px;
+}
+.assiment-41 .grid div{
+    background-color: #37474F;
+    color: white;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+}
+.assiment-42{
+    padding: var(--section-padding);
+}
+.assiment-42 .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "eight eight eight"
+    "two two three"
+    "four five five"
+    "six five five"
+    "seven five five"
+    "one one one";
+}
+.assiment-42 .grid div{
+    color: white;
+    background-color: #03A9F4;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.one {
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.assiment-43 {
+    padding: var(--section-padding);
+}
+.assiment-43 .grid{
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    margin: auto;
+    color: white;
+    gap: 15px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-content: space-between;
+}
+.assiment-43 .grid div{
+    background-color: #E91E63;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+}
+.assiment-44 {
+    padding: var(--section-padding);
+}
+.assiment-44 .grid{
+    background-color: #ddd;
+    /* height: 100vb; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+    grid-template-areas:
+    "osama osama ahmad shady"
+    "mohamad mahmoud mahmoud shady"
+    "mohamad ezz ezz shady"
+    "mo ib ga em"
+    ;
+}
+.assiment-44 .grid div{
+    /* display: inline-grid; */
+    border-bottom: #F44336 2px solid;
+    padding-left: 15px;
+    background-color: white;
+}
+.assiment-44 .grid div span{
+    position: relative;
+    top: -12px;
+    opacity: 0.5;
+}
+.assiment-44 .grid div p:last-of-type{
+    opacity: 0.5;
+}
+.assiment-44 .grid .one{
+    grid-area: osama;
+}
+.assiment-44 .grid .two{
+    grid-area: ahmad;
+}
+.assiment-44 .grid .three{
+    grid-area: shady;
+    background-color: #000;
+    color: white;
+}
+.assiment-44 .grid .four{
+    grid-area: mohamad;
+}
+.assiment-44 .grid .five{
+    grid-area: mahmoud;
+    background-color: #000;
+    color: white;
+}
+.assiment-44 .grid .six{
+    grid-area: ezz;
+}
+.assiment-44 .grid .seven{
+    grid-area: mo;
+}
+.assiment-44 .grid .eight{
+    grid-area: ib;
+    background-color: #000;
+    color: white;
+}
+.assiment-44 .grid .nine{
+    grid-area: ga;
+}
+.assiment-44 .grid .ten{
+    grid-area: em;
+}
+.assiment-45 {
+    padding: var(--section-padding);
+}
+.assiment-45 div{
+    margin: auto;
+    color: #2196F3;
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+.assiment-45 div::before,
+.assiment-45 div::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #E91E63;
+    transform: rotate(8deg);
+    z-index: -1;
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+}
+.assiment-45 div:hover::before{
+    transform: rotate(-8deg);
+    transition-duration: 1s;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+}
+.assiment-45 div::after{
+    background-color: #2196F3 ;
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+}
+.assiment-45 div:hover::after{
+    transform: rotate(8deg);
+    transition-duration: 1s;
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+}
+.assiment-46 {
+    padding: var(--section-padding);
+}
+.assiment-46 div{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 23px;
+    background-color: #eee;
+    border-radius: 50%;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.assiment-46 div:hover::after,
+.assiment-46 div:hover::before{
+    transition-duration: 1s;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.assiment-46 div:hover::after{
+    transition-delay: 0.7s;
+}
+.assiment-46 div::before,
+.assiment-46 div::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: #E91E63; */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+    border: 10px solid #E91E63;
+    border-left: transparent 10px solid;
+}
+.assiment-46 div::after{
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 10px solid #2196F3;
+    border-right: transparent 10px solid;
+}
+.assiment-47{
+    padding: 150px 0 39px 0;
+}
+.assiment-47 div{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #607D8B;
+    position: relative;
+    border-bottom: black 7px solid;
+}
+.assiment-47 div::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    color: white;
+    width: 70%;
+    height: 70%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    top: -70px;
+    left: 28px;
+}
+.assiment-47 div::after{
+    content: "Alhamwi";
+    position: absolute;
+    color: white;
+    left: 10px;
+    bottom: 5px;
+    font-size: 17px;
+}
+.assiment-48 {
+    padding: var(--section-padding);
+}
+.assiment-48 div{
+    color: white;
+    background-color: #FF5722;
+    width: 150px;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.assiment-48 div::before,
+.assiment-48 div::after{
+    content: "";
+    position: absolute;
+    background-color: #FF5722;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: skew(10deg, 10deg);
+    -webkit-transform: skew(10deg, 10deg);
+    -moz-transform: skew(10deg, 10deg);
+    -ms-transform: skew(10deg, 10deg);
+    -o-transform: skew(10deg, 10deg);
+}
+.assiment-48 div::after{
+    transform: skew(-10deg, -10deg);
+    -webkit-transform: skew(-10deg, -10deg);
+    -moz-transform: skew(-10deg, -10deg);
+    -ms-transform: skew(-10deg, -10deg);
+    -o-transform: skew(-10deg, -10deg);
+}
+.assiment-49 {
+    padding: var(--section-padding);
+}
+.assiment-49 div{
+    color: white;
+    background-color: #009688;
+    width: 150px;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+    padding: 20px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.assiment-49 div::before {
+    content: "";
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    background-color: #009688;
+    border-right: white solid 10px;
+    left: -17px;
+    top: 0;
+    transform: skew(24deg, 0deg);
+}
+.assiment-50 {
+    padding: var(--section-padding);
+}
+.assiment-50 div{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #eee;
+    position: relative;
+    perspective: 200px;
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.assiment-50 div:hover{
+    transform: rotatex(180deg);
+    -webkit-transform: rotatex(180deg);
+    -moz-transform: rotatex(180deg);
+    -ms-transform: rotatex(180deg);
+    -o-transform: rotatex(180deg);
+}
+.assiment-50 div::before{
+    content: "a hero";
+    width: 100%;
+    height: 100%;
+    background-color:#2196F3;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: rotatex(180deg);
+    -webkit-transform: rotatex(180deg);
+    -moz-transform: rotatex(180deg);
+    -ms-transform: rotatex(180deg);
+    -o-transform: rotatex(180deg);
+}
+.assiment-50 div::after{
+    content: "you are";
+    width: 100%;
+    height: 100%;
+    background-color:#F44336;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.assiment-51 {
+    padding: var(--section-padding);
+}
+.assiment-51 div{
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    animation-duration: 1s;
+    border-radius: 50%;
+    border: #E91E63 10px solid;
+    border-left: transparent solid 10px;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /*animation-name: cyrcle;
+    */animation: infinite cyrcle 1s linear;
+    -webkit-animation: infinite cyrcle 1s linear;
+    animation-play-state: running;
+}
+.assiment-51 div:hover{
+    animation-play-state: paused;
+}
+@keyframes cyrcle {
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+.assiment-51 div::before{
+    content: "";
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid #03A9F4;
+    left: -25px;
+    top: -25px;
+    z-index: -1;
+    border-right: 10px solid transparent;
+}
+.assiment-51 div::after{
+    content: "";
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid #FF9800;
+    left: -40px;
+    top: -40px;
+    z-index: -1;
+    border-bottom: 10px solid transparent;
+}
+.assiment-52 {
+    padding: var(--section-padding);
+}
+.assiment-52 div{
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 50%;
+    border: 10px solid #2196F3;
+    border-bottom: 10px solid transparent;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation:cyrcle infinite 1s linear ;
+    -webkit-animation:cyrcle infinite 1s linear ;
+    animation-play-state: paused;
+}
+.assiment-52 div:hover{
+    animation-play-state: running;
+
+}
+.assiment-52 div::before{
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #FF9800;
+    border-bottom: 10px solid transparent;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: -25px;
+    top: -25px;
+    animation:cyrcle infinite 1.5s linear ;
+    -webkit-animation:cyrcle infinite 1.5s linear ;
+    animation-play-state: paused;
+}
+.assiment-52 div:hover::before{
+    animation-play-state: running;
+}
+.assiment-52 div::after{
+    content: "";
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid black;
+    left: -40px;
+    top: -40px;
+    z-index: -1;
+    border-bottom: 10px solid transparent;
+    animation:cyrcle infinite 2s linear ;
+    -webkit-animation:cyrcle infinite 2s linear ;
+    animation-play-state: paused;
+}
+.assiment-52 div:hover::after{
+    animation-play-state: running;
+}
+.assiment-53 {
+    padding: var(--section-padding);
+}
+.assiment-53 span{
+    background-color: #ddd;
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    animation: cyrcle 1s infinite backwards;
+    -webkit-animation: cyrcle 1s infinite linear reverse;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: #000 solid 4px;
+    border-left-color: transparent;
+}
+.assiment-54{
+    padding: var(--section-padding);
+}
+.assiment-54 .container{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    margin: 10px auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "ee ll" "EE ll";
+    gap: 0px 30px;
+    position: relative;
+}
+.assiment-54 .container .l .square{
+    position: absolute;
+    color: white;
+    background-color: #FF9800;
+    width: 40px;
+    height: 40px;
+    bottom: -50px;
+    right: 10px;
+    animation: 2s linear move forwards , vanish 1s linear forwards 2s;
+    -webkit-animation: 2s linear move forwards , vanish 1s linear forwards 2s;
+}
+.assiment-54 .container .ee .square{
+    position: absolute;
+    color: white;
+    background-color: #FF9800;
+    width: 40px;
+    height: 40px;
+    top: -320px;
+    right: 15px;
+    animation: move-it 4s linear forwards ;
+    -webkit-animation: move-it 4s linear forwards 3s ;
+    opacity: 0;
+}
+.assiment-54 .container .e{
+
+    position: relative;
+    border-left: #000 solid 60px;
+    grid-area: ee;
+    border-top: #000 solid 60px;
+    border-bottom: #000 solid 30px;
+}
+
+.assiment-54 .container .ee{
+
+    position: relative;
+    border-left: #000 solid 60px;
+    grid-area: EE;
+    border-bottom: #000 solid 60px;
+    border-top: #000 solid 30px;
+}
+
+.assiment-54 .container .l{
+    position: relative;
+    border-left: #000 solid 60px;
+    grid-area: ll;
+    border-bottom: #000 solid 60px;
+}
+@keyframes move{
+    0%{
+        bottom: -50px;
+        right: 10px;
+    }
+    25%{
+        bottom: -50px;
+        right:  235px;
+    }
+    100%{
+        bottom: 490px;
+        right:  235px;
+    }
+}
+@keyframes move-it{
+    0%{
+        opacity: 1;
+        top: -320px;
+        right: 15px;
+    }
+    10%{
+        top: -320px;
+        right:  235px;
+    }
+    20%{
+        top: -50px;
+        right:  235px;
+    }
+    30%{
+        right: 15px;
+        top: -50px;
+    }
+    40%{
+        right:  235px;
+        top: -50px;
+    }
+    50%{
+        top: 220px;
+        right:  235px;
+    }
+    60%{
+        right: 15px;
+        top: 220px;
+    }
+    70%{
+        top: 220px;
+        right:  235px;
+    }
+    80%{
+        right:  235px;
+        top: -50px;
+    }
+    90%{
+        top: -320px;
+        right:  235px;
+    }
+    100%{
+        top: -320px;
+        right: 15px;
+        opacity: 1;
+    }
+}
+@keyframes vanish{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.75;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.25;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.assiment-55 {
+    padding: var(--section-padding);
+}
+.assiment-55 div{
+    margin: 3px auto;
+    text-align: center;
+    font-weight: bold;
+    color: darkgoldenrod;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 5px -2px 4px darkgoldenrod;
+}
+@media print {
+    .assiment-55 div{
+        font-size: 40px;
+    }
+}
+.assiment-56 {
+    padding: var(--section-padding);
+}
+.assiment-56 .container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.assiment-56 .container div {
+    text-align: center;
+    margin: 10px auto;
+    background-color: #eee;
+    padding: 5px;
+    flex-basis: calc(100% - 25px);
+}
+
+@media (min-width: 991px ) {
+    .assiment-56 div h3 {
+        color: red;
+    }
+    .assiment-56 .container div{
+        flex-basis: calc(50% - 25px);
+    }
+
+}
+@media (min-width: 1200px ) {
+    .assiment-56 div h3 {
+        color: green;
+    }
+    .assiment-56 .container div{
+        flex-basis: calc(25% - 25px);
+    }
+}
+.assiment-57 {
+    padding: var(--section-padding);
+}
+.assiment-57 .container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.assiment-57 .container div {
+    text-align: center;
+    margin: 10px auto;
+    background-color: #eee;
+    padding: 5px;
+    flex-basis: calc(100% - 25px);
+}
+@media (min-width: 991px ) {
+    .assiment-57 div h3 {
+        color: red;
+    }
+    .assiment-57 .container div:first-child{
+        flex-basis: calc(100% - 25px);
+    }
+    .assiment-57 .container div{
+        flex-basis: calc((100% / 3) - 25px);
+    }
+}
+@media (min-width: 1200px ){
+    .assiment-57 div h3 {
+        color: green;
+    }
+    .assiment-57 .container div{
+        flex-basis: calc(50% - 25px);
+    }
+    .assiment-57 .container div:first-child{
+        flex-basis: calc(100% - 25px);
+    }
+    .assiment-57 .container div:last-child{
+        flex-basis: calc(100% - 25px);
+    }
+}
+.assiment-58 {
+    padding: var(--section-padding);
+}
+.assiment-58 div {
+    background-color: #eee;
+    padding: 25px;
+    margin: 50px auto;
+    width: 500px;
+    position: relative;
+}
+.assiment-58 .arrow::before {
+    content: "";
+    position: absolute;
+    border: 15px solid red;
+
+}
+.assiment-58 .top::before {
+    top: -30px;
+    left: calc(275px - 15px) ;
+    border-color: transparent transparent #eee transparent
+}
+.assiment-58 .right::before {
+    top: calc(34px - 15px) ;
+    right: -30px;
+    border-color: transparent transparent transparent #eee 
+}
+.assiment-58 .bottom::before {
+    bottom: -30px;
+    left:  calc(275px - 15px) ;
+    border-color:  #eee transparent transparent  transparent
+}
+.assiment-58 .left::before {
+    top:  calc(34px - 15px);
+    left: -30px;
+    border-color: transparent #eee transparent  transparent
+}
+/* .arrow.right{
+    top: -20px;
+    left: 250px;
+    border-color:  transparent transparent red transparent;
+} */

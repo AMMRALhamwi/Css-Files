@@ -1,0 +1,30 @@
+.assiment-1 div.main.red{
+    color: red;
+}
+.assiment-2 .parent > .child:last-of-type{
+    color: red;
+}
+.assiment-3 .parent:nth-child(2) .baby{
+    color: red;
+}
+ /* .assiment-4 div[title]:not( .assiment-4 .parent div , .assiment-4 div:nth-child(8) ){
+    color: red;
+}
+the previos way is not wrong but it's not the best practice  */
+.assiment-4  P+div+div+div[title] ,
+.assiment-4 div[title]+div[title]{
+    color: red;
+} 
+.assiment-5 div:nth-child(2) div:nth-child(2){
+    color: red;
+}
+.assiment-6 div:first-child div:nth-child(3),
+.assiment-6 div:nth-child(2) div:nth-child(4){
+    color: red;
+}
+.assiment-7 div:first-child div:nth-last-child(2){
+    color: red;
+}
+.assiment-8 div div:nth-child(2) , .assiment-8 div div:nth-child(3),.assiment-8 div p{
+    color: red;
+}

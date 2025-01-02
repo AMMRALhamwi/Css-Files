@@ -1,0 +1,31 @@
+/* 
+
+flex-basis:auto;  the default value
+as long as there still space in the contaner nothing will happen
+if you gave the flex box some width for one of its childern and 
+the conntaner started to get smaller the width will get smaller
+as well without any problems
+but if you used flex-basis:200px; for ex nothing will happend differntly
+from the normal width
+the power of the flex-basis that it can be used for the width or the height
+
+this will work only in flex items and also does not work with
+elements that have appslot position and it respect the max width
+
+the short hand
+flex: [flex-grow] [flex-shrink] [flex-basis] ;
+defaults : [0]      [1]           [auto]
+
+
+if you want to make a div for ex next to your flex box give the 
+div display: inline-flex;
+*/
+/* 
+
+align-self:auto; as the default value and as always it does nothing
+the item will be as the others
+but if you gave this align-self to one element inside the flex-box things will change
+for this item alone 
+the values are flex-start flex-end flex-center and others
+
+*/

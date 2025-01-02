@@ -1,0 +1,12 @@
+div {
+    padding: 20px;
+    background-color: #eee;
+    margin: 20px auto;
+    width: 300px;
+    /* here we should add the prefix so i might add
+    them later */
+    box-shadow: 0 0 0 0;
+}
+
+/* we have h shadow v shadow blur spread color inset */
+/* you can add alot of shadows in the same element */

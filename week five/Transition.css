@@ -1,0 +1,61 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.one {
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    /* here we start testing */
+    transition-duration: 0.5s;
+    transition-duration: 5000ms;
+    /* it can be by second or ms */
+    transition-delay: 3s;
+    transition-property: all;
+    /* all is the default value */
+    /* there is a web site called Animatable css properties
+     */
+    transition-property: margin-left, margin-top;
+    transition-timing-function: ease;
+    /* ease is just like easy and it means it will start 
+    fast then slow then fast again and its the default valru */
+    transition-timing-function: linear;
+    /* linear is just like line and it means  the same  
+    speed all the time*/
+    transition-timing-function: ease-in;
+    /* slow in the beging only */
+    transition-timing-function: ease-out;
+    /* slow in the end  */
+    transition-timing-function: ease-in-out;
+    /* slow in the beging and the end and the mildle */
+    transition: width 2s, margin-top 40px;
+    /* or */
+    transition: all 0.5s 2s;
+}
+
+.one:hover {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 290px;
+}
+
+/* 
+Transition
+ruration
+property
+Delay
+Timing Function
+
+*/
+/* 
+transtion duration : how much time the moviement is gonna 
+take untile its done
+
+dely : is how much time the action is gonna wait befor it stats to take action
+property : property means what are the actoins you want to happend
+
+timint function : is the way we control the speed , it might be so fast in the beging
+and the finising and slow in the middle
+*/

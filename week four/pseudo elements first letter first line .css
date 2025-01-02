@@ -1,0 +1,36 @@
+/* pseudo elements can do what ever an element can do 
+but as befor its not realy exist */
+span {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* here we have pseudo element and its just like the span elmenet 
+form befor*/
+.two::first-letter {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.three::first-line {
+    font-weight: bold;
+    color: green;
+}
+
+/* here you can casomize the select defaults and as 
+always you can do it for one element or for all */
+::selection {
+    background-color: lightsalmon;
+    color: black;
+}
+
+.three::selection {
+    background-color: gold;
+    color: whitesmoke;
+}

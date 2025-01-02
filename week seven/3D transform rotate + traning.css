@@ -1,0 +1,30 @@
+/* 
+
+syntax
+transform: rotate3d (1,1,1 54deg);
+if you made any value as 0 you will deleta an axis
+
+this is a rotat example for a 3d syntax
+
+
+*/
+/* 3d transform translate perspective and origin */
+/* 
+
+the normal translate used to be like this
+transform: translate (100px ,-100px); 
+or 
+transform:translateX (100px);
+transform:translateY(100);
+
+the translate3D takes 3 values
+transform:translate3D (0px,0px,0px);
+
+to use the perspective origin you have to give it to the parent
+the perspective origin is just like the transform the default 
+value is 50 50  and it takes % and px and keywords and others
+
+the syntax
+prespective-origin : left top; 
+the you can use the transform:translate as you like from the child ofcourse
+*/

@@ -1,0 +1,54 @@
+.parent {
+    width: 550px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #eee;
+
+    text-align: center;
+}
+
+div {
+    float: left;
+    margin-left: 75px;
+}
+
+.outside-left {
+    background-color: #eee;
+    width: 250px;
+}
+
+.inside-left {
+    background-color: #ddd;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.inside-right {
+    background-color: #ddd;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+
+.inside {
+    position: absolute;
+    top: 60px;
+    left: -11px;
+}
+
+.therety {
+    background-color: #ddd;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}

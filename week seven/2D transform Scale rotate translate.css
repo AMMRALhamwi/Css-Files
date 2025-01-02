@@ -1,0 +1,62 @@
+/* 2D transform */
+.shape div {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255 0 0/ 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+/* to do sometransforming type :
+transform: scalex(1.5); as example the defualt is 1
+and
+transform: scaleY(1.5); as example the defualt is 1
+for both of them 
+transform:scale(2, 2)
+if you added a negative value you will make a flip
+you may like to add a transition:0.5s  so you can make the flip happines slower
+*/
+/* 
+
+Rotate
+as the scale
+transform:rotat()it takes many values such as deg degree , rad radians , grad gradians , turn how many turns
+one turn = 6.25 rad =400 grad
+
+if you want to add two types of transform do it like this :
+ transform :  scale (1.3) rotate (5dege) ;
+*/
+
+/* 
+
+Translate
+transform : (0,0) (the unit fo the X axis ,the unit for the Y axis)
+the css units that the translate accepts are px rem % and more 
+they could be negative
+
+
+*/
+/* Skew انحراف
+(0.1 turn) and more ;
+transform:skewY(54deg) (0.1 turn) and more;
+transform:skew( , )
+
+*/
+
+
+/* matrix */
+/* 
+
+transform: matrix (scaleX (), scaleX () , skewY(), skewX (), translateX(), translateY() );
+the ordering is so important
+transform: matrix(1 ,0,0, 1, 100 , 20);
+seach for ten of angle 
+but if you want to do it in the same way without using the matrix 
+transform : translateX(), translateY(), scaleX (),scaleX (), skewY(), skewX () ;
+*/

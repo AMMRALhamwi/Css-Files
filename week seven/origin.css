@@ -1,0 +1,33 @@
+/* transform-origin */
+/* 
+
+syntax
+default values 
+50% 50% 0
+
+if we are talking about the 2D transform 
+the transform-origin will take (x,y)
+
+if we are talking about the 3D transform 
+the transform-origin will take (x,y,z)
+
+in the x axis you can type
+css unit like px or em ot rem
+or %
+or keyword
+the keywords are 
+left the left is just like typing 0%
+center the center is just like typing 50%
+right the right is just like typing 100%
+
+
+in the y axis you can type
+css unit like px or em ot rem
+or %
+or keyword
+the keywords are 
+top the left is just like typing 0%
+center the center is just like typing 50%
+bottom the right is just like typing 100%
+
+*/

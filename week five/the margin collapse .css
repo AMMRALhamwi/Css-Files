@@ -1,0 +1,54 @@
+.parent {
+    overflow: hidden;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.parent .one,
+.parent .two {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.one {
+    background-color: #ddd;
+}
+
+.two {
+    background-color: #aaa;
+
+}
+
+.up {
+    background-color: red;
+    color: white;
+    height: 100px;
+}
+
+.down {
+    background-color: green;
+    color: white;
+    height: 100px;
+}
+
+/* 
+
+if you added 2 margins to 2 elements 
+the top element will have 10px margin bottom
+and the bottom element will have 10px margin top
+the result is gonna be 10px margin between them only not20ox
+
+the rules are
+1.. only vertical margin collapse 
+2... bigger margin wins #titens win
+3.... if there is any element between the two elements 
+that you added margin to 
+the collapse won`t happen
+4..... nesting does not prevent collapseing 
+
+
+*/

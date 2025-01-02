@@ -1,0 +1,42 @@
+/* there are global variables and local variables
+global means all the systm can deal with it
+local means only insid the  element */
+/* the variavles are added to the root html */
+/* we add the variable to the element by adding
+var() and it takes two values 
+1 variable name 
+2 fallback value # the fallback is something apears 
+instide of the variavle name if something went wrong */
+:root {
+    --mainColor: blue;
+    --mainPadding: 10px;
+}
+
+.main {
+    background-color: var(--mainColor, green);
+    color: white;
+    /* we can use calc to the variables  */
+    padding: calc(50px + var(--mainPadding, 20px));
+
+}
+
+h2 {
+    color: green;
+    background-color: var(--mainColor, green);
+    padding: var(--mainPadding, 20px);
+}
+
+p {
+    color: green;
+    border: 20px solid var(--mainColor, green);
+    padding: var(--mainPadding, 20px);
+}
+
+a:hover {
+    color: green;
+}
+
+.testLocal {
+    --borders: 2px black solid;
+    border-left: var(--borders);
+}

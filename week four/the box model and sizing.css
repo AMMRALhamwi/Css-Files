@@ -1,0 +1,42 @@
+.parent {
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.one {
+    background-color: #EEE;
+    width: 300px;
+    float: left;
+    /* the default of box sizing is 
+    box-sizing: content-box;
+    and here anything you add is gonna be added to 
+    the width and height for ex if you add 10px padding 
+    the width is gonna be +20px
+
+    box-sizing:border-box;
+    makes the width include the border and the margen
+    and others so what ever you add the width is not
+    gonna change
+    and if you added a height the border-box is gonna 
+    protected as well 
+
+    */
+}
+
+/* if you want to add box-sizing to all the
+elements go to begining and add the star 
+
+*{
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+
+
+
+*/

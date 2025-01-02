@@ -1,0 +1,78 @@
+.parent {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.one {
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;
+    position: relative;
+}
+
+.user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* the following is the way to do the same green line next to the 
+paragragh but you will nedd to add this in the html file
+<span class="pipeline"></span>
+after every paragragh
+span.pipeline {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: -10px;
+    top: 0;
+    background-color: #009c88;
+} */
+
+/* now i will do the same but using after */
+.one::after {
+    content: "";
+    /* without this content the pseudo elment is 
+    not gonna apear (show) at all */
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: -10px;
+    top: 0;
+    background-color: #009c88;
+}
+
+/* to make an arrow  */
+.one::before {
+    content: "";
+    /* if you added any thing in the content its gonna 
+    show up in the paragraph for ex its basicly a pseudo 
+    elment befor whatever written */
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red green blue black;
+    /* now the width and the height are gonna be 0 */
+    width: 0;
+    height: 0;
+    /* now lets hide the other colors   */
+    border-color: transparent #009c88 transparent transparent;
+    /* to make the arrow be out the paragraph  */
+    left: -20px;
+}

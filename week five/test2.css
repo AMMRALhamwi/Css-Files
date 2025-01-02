@@ -1,0 +1,23 @@
+div {
+    width: 400px;
+    margin: auto;
+    font-size: 20px !important;
+    background-color: #eee !important;
+    color: #000000 !important;
+    text-align: center;
+    border: none !important;
+
+    position: relative;
+}
+
+div::before {
+    content: "Alhamwi";
+    color: black;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background-color: #eee;
+    left: 170px;
+    top: 20px;
+    text-align: center;
+}

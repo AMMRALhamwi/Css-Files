@@ -1,0 +1,205 @@
+.one {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    animation-name: chang-color;
+    animation-duration: 14s;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(5434deg);
+    }
+}
+
+@keyframes chang-color {
+    0% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: black;
+    }
+
+    40% {
+        background-color: white;
+    }
+
+    60% {
+        background-color: green;
+    }
+
+    80% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.one::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    top: -10px;
+    border: solid red 10px;
+    border-radius: 50%;
+    border-color: red red red #ff000000;
+}
+
+.one::after {
+    content: "";
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: -20px;
+    border: solid #2196F3 10px;
+    border-radius: 50%;
+    border-color: #2196F3 #ff000000 #2196F3 #2196F3;
+}
+
+.one:hover::before {
+    transform: rotate(360deg);
+    transition-duration: 40s;
+
+}
+
+.one:hover::after {
+    transform: rotate(360deg);
+    transition-duration: 40s;
+}
+
+.two {
+    width: 150px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    padding: 30px;
+    font-size: x-large;
+    position: relative;
+}
+
+.two::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: orangered;
+    position: absolute;
+    transform: skew(10deg, 10deg);
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.two::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: orangered;
+    position: absolute;
+    transform: skew(-10deg, -10deg);
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.three {
+    width: 150px;
+    margin: 40px;
+    color: white;
+    background-color: #2196F3;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.three::before {
+
+
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #2196F3;
+    position: absolute;
+    transform-origin: bottom center;
+    transform: skew(15deg, 0deg);
+    left: 0%;
+    top: 0%;
+    z-index: -1;
+}
+
+.three::after {
+    width: 9%;
+    height: 100%;
+    content: "";
+    background-color: #2196F3;
+    position: absolute;
+    transform-origin: bottom center;
+    transform: skew(15deg, 0deg);
+    left: -15%;
+    top: 0%
+}
+
+.four {
+    width: 200px;
+    padding: 20px;
+    background-color: aquamarine;
+    transform: matrix(1, 0.2679, 0, 3, 20, 100);
+    text-align: center;
+    color: white;
+    /* transform: matrix (scaleX(0), skewY(100deg), skewX(20deg), scaleY(3deg), translateX(1%), translateY(0.2679%)); */
+    transform: translateX(20px) translateY(100px) scaleX(1) skewY(15deg) skewX(0deg) scaleY(3);
+}
+
+.five {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(52 124 214);
+    top: 30%;
+    left: 70%;
+
+    border-bottom: solid 5px black;
+}
+
+.five::before {
+
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 28px;
+    top: -35%;
+    background-color: black;
+    transform: rotate(45deg);
+    border-bottom: solid white;
+    border-right: solid white;
+}
+
+.five::after {
+    content: "Alhamwi";
+    position: absolute;
+    left: 15px;
+    top: 88%;
+    color: white;
+    transform: rotate(0deg);
+}

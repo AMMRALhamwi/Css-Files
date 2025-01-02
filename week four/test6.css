@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eee;
+    border-radius: 20%;
+    border-top-left-radius: 16px 21px;
+    border-bottom-left-radius: 33% 82%;
+    border-top-right-radius: 42%;
+    border-bottom-right-radius: 21% 19%;
+    box-shadow: inset #635a5a 0 0 9px 4px;
+    -webkit-borderradius: 20%;
+    -moz-borderradius: 20%;
+    -o-borderradius: 20%;
+    -ms-borderradius: 20%;
+}

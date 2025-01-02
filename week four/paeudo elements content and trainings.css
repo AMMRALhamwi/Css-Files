@@ -1,0 +1,131 @@
+/* # the comments that have a # befor it are the comments for content and trainings lesson */
+.parent {
+    margin-bottom: 20px;
+    overflow: hidden;
+    /* # to make a counter to count the elements fist go 
+    to the parent  and make counter-increment"here you name
+    the counter with anyname */
+    counter-increment: my-ex;
+    /* # now go to .one::after  */
+}
+
+.one {
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;
+    position: relative;
+}
+
+.user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* the following is the way to do the same green line next to the 
+paragragh but you will nedd to add this in the html file
+<span class="pipeline"></span>
+after every paragragh
+span.pipeline {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: -10px;
+    top: 0;
+    background-color: #009c88;
+} */
+
+/* now i will do the same but using after */
+.one::after {
+    content: "";
+    /* without this content the pseudo elment is 
+    not gonna apear (show) at all */
+    /* ## the green blue bar is gonna be disfuctional only to make the
+    counter show up */
+    /* ### position: absolute;
+    width: 5px;
+    height: 100%;
+    right: -10px;
+    top: 0;
+    background-color: #009c88; */
+    content: counter(my-ex);
+    position: absolute;
+    background-color: lightgrey;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    right: -10px;
+    top: 50%;
+    margin-top: -10px;
+    /* ### the content also accept atterputs  */
+}
+
+/* to make an arrow  */
+.one::before {
+    /* content: ""; */
+    /* if you added any thing in the content its gonna 
+    show up in the paragraph for ex its basicly a pseudo 
+    elment befor whatever written */
+    /* width: 20px;
+    height: 20px; */
+    /* background-color: red; */
+    /* position: absolute;
+    left: -10px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red green blue black; */
+    /* now the width and the height are gonna be 0 */
+    /* width: 0;
+    height: 0; */
+    /* now lets hide the other colors   */
+    /* border-color: transparent #009c88 transparent transparent; */
+    /* to make the arrow be out the paragraph  */
+    /* left: -20px; */
+
+
+    /* ### making atterputs */
+    content: attr(data-text);
+    /* you can if you want to adda url in the contant */
+    display: none;
+}
+
+.one:hover::before {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ul li {
+    position: relative;
+}
+
+ul li::before {
+    content: "befor";
+    /* ## here i`ll remake the same arrow from befor */
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #009600 transparent transparent;
+}

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+
+display-flex: flex ; to make a flex box
+
+*/
+
+.flex {
+    /* overflow: hidden; we dont need it in a flex box */
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-flow: row wrap;
+    /* short hand for  direction and wrap*/
+}
+
+/* flex-direction:row; the default value  */
+
+.flex div {
+    background-color: red;
+    color: white;
+    /* float: left;  we dont need it because the box is flex*/
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.float {
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: auto 20px;
+}
+
+.float div {
+    background-color: red;
+    color: white;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}

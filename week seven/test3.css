@@ -1,0 +1,45 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 60px auto;
+    position: relative;
+    background-color: aqua;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+div:hover {
+    transform: rotatex(180deg);
+
+}
+
+div::before {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    content: "Front";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div::after {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: green;
+    content: "Back";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotatex(180deg);
+    backface-visibility: hidden;
+}
+
+div:hover::after {
+    /* transform: rotateY(180deg); */
+    background-color: red;
+}

@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+
+display-flex: flex ; to make a flex box
+
+*/
+/* justify-content:flex-start; as a default value */
+/* justify-content:flex-end ; makes the elemtes come back from
+the end after the space is done so the next row starts from
+the end */
+/* justify-content:center; makes the elements justifying verticaly*/
+/* justify-content:space-between; makes spaces between the elements */
+/* justify-content:space-around; makes spaces around the elements */
+/* justify-content:space-evenly */
+/* align-items: streatch; the default value and it makes steacht
+to fit content but if you gave it height it wont*/
+/* align-itens :flex-start; makes the streach to the bottom and flex-end; makes
+the streach to the top and flex-center ; you know what it does */
+/* so if you have a div called .center
+
+.center{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 200px;
+    display:flex;
+    justify-content:center; horizantly
+    align-items:center;  verticly
+    
+
+*/
+/* align content
+align-content: steach; as default value 
+align-content:flex-start;
+align-content:flex-end;
+align-content:center;
+align-content: space around;
+align-content:space-between;
+align-content:space-evenly;
+*/
+
+/* these are for the child
+if you have these in html
+<div class=flex > 
+<div>1</div>
+<div>2</div>s
+<div>3</div>
+<div>4</div>
+<div>5</div>
+<div>6</div>
+</div>
+the css
+.flex div{
+    background-color:red;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-right:5px;
+    flex-grow:0; the default value and it means that threre is no groth
+    flex-grow:1; this means that the elements will grow until no space is left
+    and if you want one element to grow write the flex grow in class or in html style
+    and it wont grow more than the others unless there is enough space
+    flex-shrink:1; the default value so nothing is gonna change
+    flex-shrink:3; 3 for ex so and if you want to make element shrink more than others do
+    as you did in flex-grow
+
+    order : here you can do ordering to the elements as you wish
+    order:0 ; default value nothing will change
+}
+
+
+*/
+
+.flex {
+    /* overflow: hidden; we dont need it in a flex box */
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    /* flex-direction: row;
+    direction: rtl;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+    /* short hand for  direction and wrap*/
+    /* here we are testing justify content */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+
+}
+
+/* flex-direction:row; the default value  */
+
+.flex div {
+    background-color: red;
+    color: white;
+    /* float: left;  we dont need it because the box is flex*/
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.float {
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: auto 20px;
+}
+
+.float div {
+    background-color: red;
+    color: white;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}

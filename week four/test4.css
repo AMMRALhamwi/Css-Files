@@ -1,0 +1,26 @@
+body {
+    /* counter-increment: my-ex; */
+}
+
+p {
+    background-color: #eee;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 50px;
+    counter-increment: my-ex;
+    border-right: rgb(219, 29, 29) solid 5px;
+}
+
+p::before {
+    /* position: absolute; */
+    content: counter(my-ex);
+    background-color: rgb(219, 29, 29);
+    left: 29px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    margin-right: 16px;
+    margin-left: -13px;
+    padding: 10px;
+}

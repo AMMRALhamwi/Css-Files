@@ -1,0 +1,37 @@
+/* 
+
+ we use vendors prefix to  give the developer the ability
+ to use a new feature even beftor the browsers support
+ the new feature 
+ and afer the feature is being suported in the new 
+ version of the browser there is gonna be
+ no need for prefix anymore
+ this is how you add prefix
+
+.someclass{
+    -webkit-somefeature:0px;
+    -moz-somefeature:0px;
+    -o-somefeature:0px;
+    -ms-somefeature:0px;
+    somefeature:0px;
+
+-webkit-  : chrom , safari , new oprea version
+-moz-     : firefox
+-ms-      : ie , edge
+-o-       : old verson of oprea
+
+
+you can know if the feature is suported by the 
+website -- can i use ---
+
+    */
+/* 
+    
+    most of users use moderd browsers
+    the is addon (extentions ) in the vscode adds 
+    the prefix by its own 
+    one of them is css-auto-prefix
+    and we have task runner and its somethig to 
+    search more about
+    
+    */

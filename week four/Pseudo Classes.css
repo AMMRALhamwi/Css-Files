@@ -1,0 +1,45 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+
+/* to make a pseudo class : */
+a:hover {
+    color: red;
+
+}
+
+/* here how to make someaction in the lable next to it */
+.check:checked+label {
+    color: red;
+}
+
+/* here how to make things when the checkbox is checked */
+.check2:checked {
+    display: none;
+}
+
+/* here how to do things when a link is visited befor  */
+.visited:visited {
+    color: blue;
+}
+
+a:visited {
+    color: brown;
+}
+
+/* if you want to target any parent that has no childern: */
+:empty {
+    border: 2px red solid;
+}
+
+.in {
+    border: 2px solid black;
+}
+
+/* to make sure the state works perfectly use borser developer
+tools then select the element you want and check force state */
+.in:focus {
+    border: 3px #cda8a5 solid;
+    outline: none;
+}

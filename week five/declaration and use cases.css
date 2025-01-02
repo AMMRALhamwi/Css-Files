@@ -1,0 +1,15 @@
+/* 
+
+if there were a styling css in the main html file like 
+backgound-color : red;
+and you wanted to change that color from your css file
+# the sprated file when you write only css
+the color want change at all because the inline styleing is much
+stronge from the external styling file
+
+so if you realy want to change that color you need to declear your
+code as important and this is how to do it
+*/
+.one {
+    background-color: #EEE !important;
+}
